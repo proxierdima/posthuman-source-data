@@ -49,7 +49,7 @@ source ~/.bash_profile
 Get the required Story binaries:
 ```bash
 cd $HOME
-wget -O geth https://github.com/piplabs/story-geth/releases/download/v0.9.4/geth-linux-amd64
+wget -O geth https://github.com/piplabs/story-geth/releases/download/v0.11.0/geth-linux-amd64
 chmod +x $HOME/geth
 mv $HOME/geth ~/go/bin/
 mkdir -p $HOME/.story/story
@@ -65,7 +65,7 @@ cd $HOME
 rm -rf story
 git clone https://github.com/piplabs/story
 cd story
-git checkout v0.11.0
+git checkout v0.13.0
 go build -o story ./client 
 mv $HOME/story/story $HOME/go/bin/
 ```
@@ -75,7 +75,7 @@ mv $HOME/story/story $HOME/go/bin/
 ## Initialize Story App
 Initialize the Story node with your custom moniker and network settings:
 ```bash
-story init --moniker test --network iliad
+story init --moniker test --network odyssey
 ```
 
 ---
@@ -83,8 +83,8 @@ story init --moniker test --network iliad
 ## Set Seeds and Peers
 Set the seeds and peers for your node:
 ```bash
-SEEDS="51ff395354c13fab493a03268249a74860b5f9cc@story-testnet-seed.itrocket.net:26656,b7e9b91c9e8c7e66e46dd15720cbe4f74f005592@galactica.seed-t.stavr.tech:35106,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:29256"
-PEERS="0c9b936f1dc0af34679782d2ce8c80f0f8a106b3@136.243.13.36:29256,72a9d2790b6d3ff21fae0e493b62cca6b4c9f91c@65.109.28.187:26656,8a69935f34827dd81c721c63c69bfc54c849d028@46.4.52.158:26656,2f372238bf86835e8ad68c0db12351833c40e8ad@story-testnet-peer.itrocket.net:26656"
+SEEDS="434af9dae402ab9f1c8a8fc15eae2d68b5be3387@story-testnet-seed.itrocket.net:29656,b7e9b91c9e8c7e66e46dd15720cbe4f74f005592@galactica.seed-t.stavr.tech:35106,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@testnet-seeds.polkachu.com:29256"
+PEERS="c2a6cc9b3fa468624b2683b54790eb339db45cbf@story-testnet-peer.itrocket.net:26656,a1847e8325772ada9e2ad3a41e81ca022af4f1ef@65.21.136.219:41656,36f30f03a013f33fcdcd1962cb28b86478d3b549@149.50.118.20:26156,92782932b46812fb9772ccd7a1fedad924938246@65.108.226.200:26656,1c63647905963a0c95d904cd92ed7626bf1b8183@198.178.224.104:60730,4240c286741a402f9bd3dede9144c41de6c1079a@142.132.209.236:29256,f13f0bf2b5aea85ca15677879e7f65ee02886111@49.12.122.53:27656,e8d2732e64d3dcedb3960cbed9aeb325e6ffec51@37.60.234.34:656,cae3aa25f8eceedb3ba1cc87e016cc1975d28354@37.60.252.105:656,a4f0d9f44b56dcc8f98a714e8efcd87ac71c6652@65.109.26.242:25556,ef2f9d930fa65c0e3f184e2899ac7a9053fd1e69@49.13.4.170:26656,ee1aee60f82ea8d4a9c5b27e768584d8800971e6@2.56.246.4:26656,57fd6538790be2ecad5f488eb10089f670ecb41c@188.68.38.127:26656,6fbcfda71b3afadbce92198e2fa286eda0058881@177.54.159.225:26656,65066f1c877b1b5f9858740e91bb70e067609886@94.72.99.85:656,d7bd9c076ed06cc6ddaf40cf29ed9cbd7696d50c@194.163.148.243:26656,234680bca36bf35c62318a2b2945f9122d624625@37.60.234.20:656,dbf30e16653d477358b244521d9f5cb25387461c@149.50.118.61:26156,41ade4c9cb31ebad3f65d58ea862bdc119b87287@62.169.16.182:26656"
 sed -i -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*seeds *=.*/seeds = "$SEEDS"/}" -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*persistent_peers *=.*/persistent_peers = "$PEERS"/}" $HOME/.story/story/config/config.toml
 ```
 
