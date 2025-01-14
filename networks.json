@@ -76,6 +76,22 @@
     "services": ["IBC-Relayers"]
   },
   {
+    "name": "atomone",
+    "type": "mainnet",
+    "title": "AtomOne",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/atomone/images/atomone.svg",
+    "stake": "https://explorer.posthuman.digital/atomone/staking/atonevaloper1vcp7pkg8sk0n8ylhezxxs8qqrnwfld4dsv2sew",
+    "explorer": "https://explorer.posthuman.digital/atomone",
+    "endpoints": {
+      "rpc": "https://rpc.atomone.posthuman.digital:443",
+      "rest": "https://rest.atomone.posthuman.digital:443",
+      "grpc": "https://grpc.atomone.posthuman.digital:443",
+      "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@8.52.247.236:56656"
+    },
+    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "services": ["IBC-Relayers", "genesis-file", "addr-book", "snapshot-service", "one-liner"]
+  },
+  {
     "name": "stargaze",
     "type": "mainnet",
     "title": "Stargaze",
