@@ -89,7 +89,7 @@
       "seed-node": "16bd427bd598e25c9d78e60e6b9c12d7cc8eeb84@8.52.247.236:56656"
     },
     "generatedServices": ["installation-guide", "state-sync", "peers"],
-    "services": ["IBC-Relayers", "genesis-file", "addr-book", "snapshot-service", "one-liner"]
+    "services": ["IBC-Relayers", "genesis-and-addrbook", "snapshot-service", "one-liner"]
   },
   {
     "name": "stargaze",
