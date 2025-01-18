@@ -238,6 +238,7 @@
       "grpc": "https://grpc.agoric.posthuman.digital",
       "peer": "a31df340e2a186a0541cdb5099a1cca6eab67c75@135.181.61.154:12756"
     },
+    "contributions": "agoric",
     "generatedServices": ["state-sync", "peers"],
     "services": ["instalation-guide", "IBC-Relayers", "genesis-and-addrbook", "snapshot-service", "one-liner"]
   },
