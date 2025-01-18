@@ -214,11 +214,32 @@
     "endpoints": {
       "rpc": "https://rpc.celestia-mainnet.posthuman.digital",
       "rest": "https://rest.celestia-mainnet.posthuman.digital",
-      "grpc": "https://grpc.celestiamainnet.posthuman.digital",
+      "grpc": "https://grpc.celestia-mainnet.posthuman.digital",
       "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
     },
     "generatedServices": ["installation-guide", "state-sync"],
     "services": []
+  },
+  {
+    "name": "agoric",
+    "type": "mainnet",
+    "title": "Agoric",
+    "website": "https://agoric.com/",
+    "twitter": "https://x.com/agoric",
+    "discord": "https://discord.com/invite/qDW8DRes4s",
+    "github": "https://github.com/agoric",
+    "icon": "https://github.com/cosmos/chain-registry/blob/master/agoric/images/Agoric-logo-color.svg",
+    "stake": "https://www.mintscan.io/agoric",
+    "explorer": "https://www.mintscan.io/agoric",
+    "chain_id": "agoric-3",
+    "endpoints": {
+      "rpc": "https://rpc.agoric.posthuman.digital",
+      "rest": "https://rest.agoric.posthuman.digital",
+      "grpc": "https://grpc.agoric.posthuman.digital",
+      "peer": "a31df340e2a186a0541cdb5099a1cca6eab67c75@135.181.61.154:12756"
+    },
+    "generatedServices": ["installation-guide", "state-sync", "peers"],
+    "services": ["IBC-Relayers", "genesis-and-addrbook", "snapshot-service", "one-liner"]
   },
   {
     "name": "celestia-testnet",
