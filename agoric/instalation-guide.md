@@ -1,7 +1,7 @@
 
 # Agoric Node Setup Guide with Posthuman State-Sync
 
-This guide outlines how to set up an Agoric node on the `agoric-3` chain using `agoric-upgrade-18`. It incorporates the use of the Posthuman state-sync server for efficient setup.
+This guide outlines how to set up an Agoric node on the `agoric-3` chain using `agoric-upgrade-18`. It incorporates the use of the Posthuman state-sync server or snapshot service for efficient setup.
 
 ---
 
@@ -135,7 +135,7 @@ sudo systemctl enable agoric.service
 ```bash
 agd config chain-id agoric-3
 agd config keyring-backend file
-agd config node tcp://localhost:12757
+agd config node tcp://localhost:25757
 ```
 
 ### Initialize Node
@@ -147,33 +147,33 @@ agd init $MONIKER --chain-id agoric-3
 
 ## 8. Enable State-Sync Using Posthuman or use snapshot service
 
-# Stop the service
+### Stop the service
 ```
 sudo systemctl stop agoric
 ```
-# Backup priv_validator_state.json
+### Backup priv_validator_state.json
 ```
 cp ~/.agoric/data/priv_validator_state.json ~/.agoric/priv_validator_state.json.backup
 ```
-# Remove old data
+### Remove old data
 ```
 rm -rf ~/.agoric/data
 ```
-# Download and Extract the snapshot
+### Download and Extract the snapshot
 ```
 curl https://snapshots.agoric.posthuman.digital/data_latest.lz4 | lz4 -dc - | tar -xf - -C ~/.agoric/
 ```
-# Restore priv_validator_state.json
+### Restore priv_validator_state.json
 ```
 mv ~/.agoric/priv_validator_state.json.backup ~/.agoric/data/priv_validator_state.json
 ```
 
-# Restart the service
+### Restart the service
 ```
 sudo systemctl start agoric && sudo journalctl -u agoric -f
 ```
 
-### Configure State-Sync
+## Configure State-Sync(optional)
 Create a script called `state_sync.sh`:
 ```bash
 #!/bin/bash
@@ -197,17 +197,17 @@ chmod 700 state_sync.sh
 
 ### Stop the Node
 ```bash
-sudo systemctl stop agd.service
+sudo systemctl stop agoric.service
 ```
 
-### Reset the Node
+### Reset the Node in case you use statesync
 ```bash
 agd tendermint unsafe-reset-all --home $HOME/.agoric --keep-addr-book
 ```
 
 ### Restart the Node
 ```bash
-sudo systemctl start agd.service
+sudo systemctl start agoric.service
 ```
 
 ---
@@ -215,5 +215,5 @@ sudo systemctl start agd.service
 ## 10. Verify Syncing
 If configured correctly, your node should start syncing within 10 minutes. Use the following command to monitor logs:
 ```bash
-sudo journalctl -u agd.service -f --no-hostname -o cat
+sudo journalctl -u agoric.service -f --no-hostname -o cat
 ```
