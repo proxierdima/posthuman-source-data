@@ -1,17 +1,27 @@
-# Stop the service
+# POSTHUMAN snapshot service
+
+## Stop the service
+```
 sudo systemctl stop agoric
-
-# Backup priv_validator_state.json
+```
+## Backup priv_validator_state.json
+```
 cp ~/.agoric/data/priv_validator_state.json ~/.agoric/priv_validator_state.json.backup
-
-# Remove old data
+```
+## Remove old data
+```
 rm -rf ~/.agoric/data
-
-# Download and Extract the snapshot
+```
+## Download and Extract the snapshot
+```
 curl https://snapshots.agoric.posthuman.digital/data_latest.lz4 | lz4 -dc - | tar -xf - -C ~/.agoric/
-
-# Restore priv_validator_state.json
+```
+## Restore priv_validator_state.json
+```
 mv ~/.agoric/priv_validator_state.json.backup ~/.agoric/data/priv_validator_state.json
+```
 
-# Restart the service
+## Restart the service
+```
 sudo systemctl start agoric && sudo journalctl -u agoric -f
+```
