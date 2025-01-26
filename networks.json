@@ -229,8 +229,8 @@
     "discord": "https://discord.com/invite/qDW8DRes4s",
     "github": "https://github.com/agoric",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/agoric/images/bld.svg",
-    "stake": "https://www.mintscan.io/agoric",
-    "explorer": "https://www.mintscan.io/agoric",
+    "stake": "https://explorer.posthuman.digital/agoric/staking/agoricvaloper13yy5mk8ek8p5kk3e8nleucw003nt2vmzxrdx36",
+    "explorer": "https://explorer.posthuman.digital/agoric",
     "chain_id": "agoric-3",
     "endpoints": {
       "rpc": "https://rpc.agoric.posthuman.digital",
