@@ -318,6 +318,7 @@
       "grpc": "https://grpc.babylon.posthuman.digital",
       "peer": "70d302558183535e220a725d463597ade72e130d@95.217.229.104:60656"
     },
+    "generatedServices": [],
     "services": ["instalation-guide", "genesis-and-addrbook", "snapshot-service", "one-liner"]
   }
 ]
