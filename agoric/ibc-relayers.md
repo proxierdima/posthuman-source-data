@@ -185,28 +185,9 @@
 
 ## IBC Relayers
 
-| Chain Name         | Address                                                                 | Explorer Link                                                                 |
+| Chain Name         | Address     |                                                           | Explorer Link                                                                 
 |--------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| Gravity Bridge     | gravity1jdfl8aa2cpzq9ufe3y6awyp6m9d65yy57tv2z4                          | [Link](https://www.mintscan.io/gravity-bridge/account/gravity1jdfl8aa2cpzq9ufe3y6awyp6m9d65yy57tv2z4) |
-| Injective          | inj13q49unftdxhvhz8z7yzcysvnnkgtdd46qmycva                              | [Link](https://www.mintscan.io/injective/address/inj13q49unftdxhvhz8z7yzcysvnnkgtdd46qmycva) |
-| Cosmos Hub         | cosmos1aea0vly7lklqrkxjpvch8z5dekmxqwyk8kr4px                            | [Link](https://www.mintscan.io/cosmos/address/cosmos1aea0vly7lklqrkxjpvch8z5dekmxqwyk8kr4px) |
-| FirmaChain         | firma1latk4vaeqwhc8u6t4hq05h5ljq3v4uqej90hg2                             | [Link](https://explorer.firmachain.dev/accounts/firma1latk4vaeqwhc8u6t4hq05h5ljq3v4uqej90hg2) |
-| Secret Network     | secret1h3grxcfts9uc8lvu9vclhahus2npk24pg0jz5k                           | [Link](https://www.mintscan.io/secret/address/secret1h3grxcfts9uc8lvu9vclhahus2npk24pg0jz5k) |
-| Osmosis            | osmo15z4tpg5yxc9f0a2xuh52hj0cpyz66y95atdg86                             | [Link](https://www.mintscan.io/osmosis/account/osmo15z4tpg5yxc9f0a2xuh52hj0cpyz66y95atdg86) |
-| Crescent           | cre12dmz39xehzuzzjrf3gz3s5aknr08jnhdz6m70v                              | [Link](https://www.mintscan.io/crescent/account/cre12dmz39xehzuzzjrf3gz3s5aknr08jnhdz6m70v) |
-| Fetch.ai           | fetch19d723nkvnhkn8867kgfl5xmjyag9xfunhvl7ln                             | [Link](https://www.mintscan.io/fetchai/account/fetch19d723nkvnhkn8867kgfl5xmjyag9xfunhvl7ln) |
-| Umee               | umee1my9v82a7dwlz7j5p4dptlv7mecenzymnhp0d4g                             | [Link](https://www.mintscan.io/umee/account/umee1my9v82a7dwlz7j5p4dptlv7mecenzymnhp0d4g) |
-| Juno Network       | juno1kmh5nvfrsatc3v7ssgszzrlxsdz7f3czmdu5wj                             | [Link](https://www.mintscan.io/juno/account/juno1kmh5nvfrsatc3v7ssgszzrlxsdz7f3czmdu5wj) |
-| SifChain           | sif1t9nrmmcrg5vvw2wc3vez0xdsqv7etu7d79g2th                              | [Link](https://www.mintscan.io/sifchain/account/sif1t9nrmmcrg5vvw2wc3vez0xdsqv7etu7d79g2th) |
-| Chihuahua Chain    | chihuahua1jsagf0cy3mzyw4w2x8d8pd4cscxgtakuzkjcqq                         | [Link](https://www.mintscan.io/chihuahua/account/chihuahua1jsagf0cy3mzyw4w2x8d8pd4cscxgtakuzkjcqq) |
-| Asset Mantle       | mantle1euj0c8hrdxxe495ktr97vh8w2swthmzrz2hdmm                            | [Link](https://www.mintscan.io/asset-mantle/account/mantle1euj0c8hrdxxe495ktr97vh8w2swthmzrz2hdmm) |
-| OmniFlix Network   | omniflix1llnx025yzlqehyz3hvtyh5f627kszclg32hlsm                         | [Link](https://www.mintscan.io/omniflix/account/omniflix1llnx025yzlqehyz3hvtyh5f627kszclg32hlsm) |
-| Odin               | odin1arl3yqdafpff33gd0djvmj6kyu20q0w8c5ln2t                              | [Link](https://ping.pub/odin/account/odin1arl3yqdafpff33gd0djvmj6kyu20q0w8c5ln2t) |
-| Tgrade             | tgrade1f7ahqkjvhlfl8acf7dfhnegdklrqyrj6lckehf                           | [Link](https://www.mintscan.io/tgrade/account/tgrade1f7ahqkjvhlfl8acf7dfhnegdklrqyrj6lckehf) |
-| Archway            | archway1q3r82mdwehuxtcgpyuva2rwfe935qtwffqey6h                          | [Link](https://www.mintscan.io/archway/accounts/archway1q3r82mdwehuxtcgpyuva2rwfe935qtwffqey6h) |
-| Dymension          | dym1h3grxcfts9uc8lvu9vclhahus2npk24pch2dvy                               | [Link](https://www.mintscan.io/dymension/address/dym1h3grxcfts9uc8lvu9vclhahus2npk24pch2dvy) |
-| Persistence        | persistence1h3grxcfts9uc8lvu9vclhahus2npk24pyxqc8w                      | [Link](https://www.mintscan.io/persistence/address/persistence1h3grxcfts9uc8lvu9vclhahus2npk24pyxqc8w) |
 | Agoric             | agoric1wf2wfjc83fs52lw68s9gt95cfjfrq5lhqe88s3                            | [Link](https://www.mintscan.io/agoric/address/agoric1wf2wfjc83fs52lw68s9gt95cfjfrq5lhqe88s3) |
-| BeeZee             | bze1hqgqgyz3nsjzj6dklhpwejml99uahckurzw8xg                               | [Link](https://ping.pub/beezee/account/bze1hqgqgyz3nsjzj6dklhpwejml99uahckurzw8xg) |
+
 
 
