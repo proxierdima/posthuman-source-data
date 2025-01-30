@@ -12,9 +12,3 @@ Here is a script for you to update **persistent_peers** setting in **config.toml
 PEERS={{:peers.persistent_peers:{id}@{address}:,}}
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" {{node_home}}/config/config.toml
 ```
-
-When you state-sync, you might also consider adding Posthuman's state-sync peer to your **persistent_peers** setting in **config.toml**.
-
-```
-{{endpoints.seed-node}}
-```
