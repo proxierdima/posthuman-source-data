@@ -1,4 +1,5 @@
 # POSTHUMAN snapshot service for Agoric
+Updated every 24 hours
 
 ## Stop the service
 ```
