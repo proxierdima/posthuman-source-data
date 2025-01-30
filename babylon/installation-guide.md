@@ -170,7 +170,7 @@ BLS keys are stored along with other validator keys in priv_validator_key.json,:
 babylond create-bls-key $WALLET_ADDRESS
 ```
 ```
-babylond tx staking create-validator validator.json --from $WALLET --chain-id bbn-test-5 --gas auto --gas-adjustment 1.5
+babylond tx checkpointing create-validator validator.json --from $WALLET --chain-id bbn-test-5 --gas auto --gas-adjustment 1.5
 ```
 
 ## Step 15: Security Recommendations
