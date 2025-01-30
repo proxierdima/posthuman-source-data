@@ -1,4 +1,4 @@
-#  Installation Guide to install babylon testnet
+#  Babylon Validator Setup Guide
 
 ## Recommended Hardware
 - **CPU:** 4 Cores
