@@ -142,7 +142,7 @@
     },
     "contributions": "namada",
     "generatedServices": [],
-    "services": ["instalation-guide", "genesis-file", "addr-book", "snapshot-service"]
+    "services": ["installation-guide", "genesis-file", "addr-book", "snapshot-service"]
   },
   {
     "name": "crossfi-testnet",
@@ -198,7 +198,7 @@
     },
     "contributions": "story-testnet",
     "generatedServices": [],
-    "services": ["instalation-guide", "genesis-and-addrbook", "snapshot-service","one-liner"]
+    "services": ["installation-guide", "genesis-and-addrbook", "snapshot-service","one-liner"]
   },
   {
     "name": "celestia",
@@ -240,7 +240,7 @@
     },
     "contributions": "Agoric",
     "generatedServices": ["state-sync", "peers"],
-    "services": ["instalation-guide", "IBC-Relayers", "genesis-and-addrbook", "snapshot-service", "one-liner"]
+    "services": ["installation-guide", "IBC-Relayers", "genesis-and-addrbook", "snapshot-service", "one-liner"]
   },
   {
     "name": "celestia-testnet",
