@@ -1,5 +1,7 @@
 # POSTHUMAN snapshot service for Babylon testnet
 
+Updated every 72 hours
+
 ## Stop the service
 ```
 sudo systemctl stop babylon
