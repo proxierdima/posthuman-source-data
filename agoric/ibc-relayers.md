@@ -184,9 +184,6 @@
 </details>
 
 ## IBC Relayers
-
-| Chain Name         | Address     |                                                           | Explorer Link |                                                            
-| Agoric             | agoric1wf2wfjc83fs52lw68s9gt95cfjfrq5lhqe88s3                            | [Link](https://www.mintscan.io/agoric/address/agoric1wf2wfjc83fs52lw68s9gt95cfjfrq5lhqe88s3) |
-
-
-
+| Chain Name | Address | Explorer Link |
+|------------|---------|---------------|
+| Agoric     | agoric1wf2wfjc83fs52lw68s9gt95cfjfrq5lhqe88s3 | [Link](https://www.mintscan.io/agoric/address/agoric1wf2wfjc83fs52lw68s9gt95cfjfrq5lhqe88s3) |
