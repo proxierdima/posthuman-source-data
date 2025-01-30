@@ -301,14 +301,14 @@
     "services": ["oracle-slinky-setup-guide"]
   },
   {
-    "name": "babylon",
+    "name": "babylon-testnet",
     "type": "testnet",
     "title": "Babylon",
     "website": "https://babylonlabs.io",
     "twitter": "https://x.com/babylonlabs_io",
     "discord": "https://discord.com/invite/babylonglobal",
     "github": "https://github.com/babylonlabs-io",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/babylon/babylon.svg",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/babylon-testnet/babylon.svg",
     "stake": "https://explorer.posthuman.digital/babylon/staking/bbnvaloper1thsqam9as5sxzj8c8cmkdrgtc5gmlxn0nxuypf",
     "explorer": "https://explorer.posthuman.digital/babylon",
     "chain_id": "bbn-test-5",
