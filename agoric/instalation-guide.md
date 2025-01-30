@@ -1,5 +1,5 @@
 
-# Agoric Node Setup Guide with Posthuman State-Sync
+# Agoric Node Setup Guide and POSTHUMAN State Sync
 
 This guide outlines how to set up an Agoric node on the `agoric-3` chain using `agoric-upgrade-18`. It incorporates the use of the Posthuman state-sync server or snapshot service for efficient setup.
 
