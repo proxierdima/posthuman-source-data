@@ -74,7 +74,7 @@
     },
     "contributions": "atomone",
     "generatedServices": ["installation-guide", "state-sync", "peers"],
-    "services": ["IBC-Relayers"]
+    "services": []
   },
   {
     "name": "atomone",
@@ -320,6 +320,6 @@
     },
     "contributions": "babylon",
     "generatedServices": [],
-    "services": ["installation-guide", "genesis-and-addrbook", "snapshot-service", "one-liner"]
+    "services": ["installation-guide", "genesis-and-addrbook", "snapshot-service", "one-liner", "IBC-Relayers"]
   }
 ]
