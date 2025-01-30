@@ -320,6 +320,6 @@
     },
     "contributions": "babylon",
     "generatedServices": [],
-    "services": ["installation-guide", "genesis-and-addrbook", "snapshot-service", "one-liner", "IBC-Relayers"]
+    "services": ["installation-guide", "genesis-and-addrbook", "snapshot-service", "one-liner"]
   }
 ]
