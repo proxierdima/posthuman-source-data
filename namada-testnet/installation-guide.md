@@ -1,7 +1,4 @@
-# Custom Installation Guide for Ubuntu Server
-
-RPC: https://rpc.namada.posthuman.digital:443
-
+# Namada Validator Setup Guide
 
 ### Recommended Hardware
 
