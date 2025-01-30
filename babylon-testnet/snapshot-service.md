@@ -1,6 +1,12 @@
-# POSTHUMAN snapshot service for Babylon testnet
+# POSTHUMAN snapshot service for the Babylon testnet
 
-Updated every 72 hours
+(Updated every 72 hours)
+
+## Install Required Dependencies
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
+```
 
 ## Stop the service
 ```
