@@ -309,8 +309,8 @@
     "github": "https://github.com/babylonlabs-io",
     "discord": "https://discord.com/invite/babylonglobal",
     "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/babylon-testnet/babylon.svg",
-    "stake": "https://explorer.posthuman.digital/babylon/staking/bbnvaloper1thsqam9as5sxzj8c8cmkdrgtc5gmlxn0nxuypf",
-    "explorer": "https://explorer.posthuman.digital/babylon",
+    "stake": "https://explorer.posthuman.digital/babylon-testnet/staking/bbnvaloper1thsqam9as5sxzj8c8cmkdrgtc5gmlxn0nxuypf",
+    "explorer": "https://explorer.posthuman.digital/babylon-testnet",
     "chain_id": "bbn-test-5",
     "endpoints": {
       "rpc": "https://rpc.babylon.posthuman.digital",
