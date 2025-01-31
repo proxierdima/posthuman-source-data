@@ -128,16 +128,16 @@
     "services": ["installation-guide"]
   },
   {
-    "name": "namada-testnet",
-    "type": "testnet",
+    "name": "namada",
+    "type": "mainnet",
     "title": "Namada",
-    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada-testnet/namada.svg",
-    "stake": "https://shielded.live/validators/CC15B17D24019A4FE61279ED30F3DD175ECD814D1E5AF9B9E33F81C888EF93AE",
+    "icon": "https://github.com/Validator-POSTHUMAN/posthuman-source-data/raw/main/namada/namada.svg",
+    "stake": "https://shielded.live/validators/0E3AB495DEC6558008A6CD962FFCBDA749CF475CAE21932AC1C6A9F4A8368550",
     "explorer": "https://shielded.live/",
-    "chain_id": "housefire-reduce.e51ecf4264fc3",
+    "chain_id": "namada.5f5de2dd1b88cba30586420",
     "endpoints": {
       "rpc": "https://rpc.namada.posthuman.digital:443",
-      "seed-node": "67cdb666f68cfefcd799ac589b2a9b005c067ef3@seed.namada.posthuman.digital:26656",
+      "peer": "67cdb666f68cfefcd799ac589b2a9b005c067ef3@peer.namada.posthuman.digital:26656",
       "snapshots": "https://snapshots.namada.posthuman.digital/"
     },
     "contributions": "namada",
