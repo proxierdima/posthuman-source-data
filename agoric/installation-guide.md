@@ -217,5 +217,7 @@ If configured correctly, your node should start syncing within 10 minutes. Use t
 ```bash
 sudo journalctl -u agoric.service -f --no-hostname -o cat
 ```
-# 11. For Agoric nodes, make sure you set iavl-disable-fastnode = true in app.toml.
-
+## 11. For Agoric nodes, make sure you set in app.toml.
+```bash
+iavl-disable-fastnode = true 
+```
