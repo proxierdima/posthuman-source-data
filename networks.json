@@ -288,8 +288,8 @@
     },
     "title": "Warden",
     "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/warden-testnet/warden.svg",
-    "stake": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
-    "explorer": "https://testnet.itrocket.net/warden/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
+    "stake": "https://explorer.posthuman.digital/warden-testnet/staking/wardenvaloper12de4mzezcvhauqxcszrhkdagwv8lwqs9uvla75",
+    "explorer": "https://explorer.posthuman.digital/warden-testnet",
     "chain_id": "chiado_10010-1",
     "endpoints": {
       "rpc": "https://rpc.warden-testnet.posthuman.digital",
