@@ -207,7 +207,7 @@
     "website": "https://celestia.org/",
     "twitter": "https://x.com/CelestiaOrg",
     "discord": "https://discord.com/invite/celestiacommunity",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/celestia/celestia.svg",
     "stake": "https://www.mintscan.io/celestia",
     "explorer": "https://www.mintscan.io/celestia",
     "chain_id": "celestia",
