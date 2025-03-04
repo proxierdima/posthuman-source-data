@@ -207,9 +207,9 @@
     "website": "https://celestia.org/",
     "twitter": "https://x.com/CelestiaOrg",
     "discord": "https://discord.com/invite/celestiacommunity",
-    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/refs/heads/main/celestia/celestia.svg",
-    "stake": "https://www.mintscan.io/celestia",
-    "explorer": "https://www.mintscan.io/celestia",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/celestia-source-data/refs/heads/main/celestia/celestia.svg",
+    "stake": "https://explorer.posthuman.digital/celestia/staking",
+    "explorer": "https://celestia-explorer.posthuman.digital",
     "chain_id": "celestia",
     "endpoints": {
       "rpc": "https://rpc.celestia-mainnet.posthuman.digital",
@@ -218,7 +218,39 @@
       "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
     },
     "generatedServices": ["installation-guide", "state-sync"],
-    "services": []
+    "services": ["bridge-node-setup", "full-node-setup", "light-node-setup", "snapshots"]
+  },
+  {
+    "name": "celestia-testnet",
+    "type": "testnet",
+    "daemon_name": "celestia-appd",
+    "website": "https://celestia.org/",
+    "codebase": {
+      "git_repo": "https://github.com/celestiaorg/celestia-app",
+      "recommended_version": "v2.3.0-mocha",
+      "compatible_versions": [
+        "v2.0.0",
+        "v2.1.0",
+        "v2.1.1",
+        "v2.1.2"
+    ]
+  },
+  "chain_name": "celestia-app",
+    "title": "Celestia",
+    "twitter": "https://x.com/CelestiaOrg",
+    "discord": "https://discord.com/invite/celestiacommunity",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/celestia-source-data/refs/heads/main/celestia/celestia.svg",
+    "stake": "https://explorer.posthuman.digital/celestia-testnet/staking/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
+    "explorer": "https://www.mintscan.io/celestia-testnet",
+    "chain_id": "mocha-4",
+    "endpoints": {
+      "rpc": "https://rpc.celestia-testnet.posthuman.digital",
+      "rest": "https://rest.celestia-testnet.posthuman.digital",
+      "grpc": "https://grpc.celestia-testnet.posthuman.digital",
+      "peer": "f57805e824e984467f8b1f2560a5ef4c80077ed5@207.121.49.100:11656"
+    },
+    "generatedServices": ["installation-guide", "state-sync"],
+    "services": ["full-node-setup","light-node-setup","bridge-node-setup","snapshots"]
   },
   {
     "name": "agoric",
@@ -241,39 +273,6 @@
     "contributions": "Agoric",
     "generatedServices": ["state-sync", "peers"],
     "services": ["installation-guide", "IBC-Relayers", "genesis-and-addrbook", "snapshot-service", "one-liner"]
-  },
-  {
-    "name": "celestia-testnet",
-    "type": "testnet",
-    "daemon_name": "celestia-appd",
-    "website": "https://celestia.org/",
-    "codebase": {
-      "git_repo": "https://github.com/celestiaorg/celestia-app",
-      "recommended_version": "v2.3.0-mocha",
-      "compatible_versions": [
-        "v2.0.0",
-        "v2.1.0",
-        "v2.1.1",
-        "v2.1.2"
-    ]
-  },
-    "chain_name": "celestia-app",
-    "title": "Celestia",
-    "website": "https://celestia.org/",
-    "twitter": "https://x.com/CelestiaOrg",
-    "discord": "https://discord.com/invite/celestiacommunity",
-    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg",
-    "stake": "https://www.mintscan.io/celestia-testnet/validators/celestiavaloper1sa5mgyskjzpx6znnd6jxkn59g02hm6c4p8a59v",
-    "explorer": "https://www.mintscan.io/celestia-testnet",
-    "chain_id": "mocha-4",
-    "endpoints": {
-      "rpc": "https://rpc.celestia-testnet.posthuman.digital",
-      "rest": "https://rest.celestia-testnet.posthuman.digital",
-      "grpc": "https://grpc.celestia-testnet.posthuman.digital",
-      "peer": "f57805e824e984467f8b1f2560a5ef4c80077ed5@207.121.49.100:11656"
-    },
-    "generatedServices": ["installation-guide", "state-sync"],
-    "services": []
   },
   {
     "name": "warden-testnet",
