@@ -218,7 +218,7 @@
       "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
     },
     "generatedServices": ["installation-guide", "state-sync"],
-    "services": ["bridge-node-setup", "full-node-setup", "light-node-setup", "snapshots"]
+    "services": ["bridge-node-setup", "full-node-setup", "light-node-setup", "snapshots","one-liner"]
   },
   {
     "name": "celestia-testnet",
@@ -250,7 +250,7 @@
       "peer": "f57805e824e984467f8b1f2560a5ef4c80077ed5@207.121.49.100:11656"
     },
     "generatedServices": ["installation-guide", "state-sync"],
-    "services": ["full-node-setup","light-node-setup","bridge-node-setup","snapshots"]
+    "services": ["full-node-setup","light-node-setup","bridge-node-setup","snapshots","one-liner"]
   },
   {
     "name": "agoric",
