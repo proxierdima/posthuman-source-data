@@ -217,6 +217,7 @@
       "grpc": "https://grpc.celestia-mainnet.posthuman.digital",
       "peer": "cd9f852141cd6f78e9443cea389911a6f0a5df72@8.52.247.252:26656"
     },
+    "contributions": "Celestia",
     "generatedServices": ["installation-guide", "state-sync"],
     "services": ["bridge-node-setup", "full-node-setup", "light-node-setup", "snapshots","one-liner"]
   },
