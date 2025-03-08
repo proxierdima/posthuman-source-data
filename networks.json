@@ -305,7 +305,7 @@
     "type": "mainnet",
     "title": "Kyve",
     "website": "https://kyve.network/",
-    "twitter": "https://twitter.com/KYVENetwork",
+    "twitter": "https://x.com/KYVENetwork",
     "discord": "https://discord.gg/sTfnADUj",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/kyve/images/kyve.svg",
     "stake": "https://explorer.posthuman.digital/kyve/staking/kyvevaloper16hnse4c852xg4vxjnqhx648e02z32n72l66nv7",
@@ -315,10 +315,10 @@
       "rpc": "https://rpc.kyve.posthuman.digital",
       "rest": "https://rest.kyve.posthuman.digital",
       "grpc": "https://grpc.kyve.posthuman.digital",
-      "peer": ""
+      "peer": "cdac5f97b512287daf89f928a89da9cf3344830b@8.52.247.252:35656"
     },
-    "generatedServices": ["installation-guide", "state-sync"],
-    "services": ["snapshots"]
+    "generatedServices": ["installation-guide", "state-sync","snapshots"],
+    "services": []
   },
   {
     "name": "babylon-testnet",
