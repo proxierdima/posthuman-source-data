@@ -321,6 +321,26 @@
     "services": []
   },
   {
+    "name": "zetachain",
+    "type": "mainnet",
+    "title": "Zeta",
+    "website": "https://www.zetachain.com/",
+    "twitter": "https://x.com/zetablockchain",
+    "discord": "https://discord.gg/zetachain",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/zetachain/images/zetachain.svg",
+    "stake": "https://explorer.posthuman.digital/zetachain/staking/",
+    "explorer": "https://explorer.posthuman.digital/zetachain",
+    "chain_id": "zetachain_7000-1",
+    "endpoints": {
+      "rpc": "https://rpc.zeta.posthuman.digital",
+      "rest": "https://rest.zeta.posthuman.digital",
+      "grpc": "https://grpc.zeta.posthuman.digital",
+      "peer": ""
+    },
+    "generatedServices": ["installation-guide", "state-sync", "snapshots"],
+    "services": []
+  },
+  {
     "name": "babylon-testnet",
     "type": "testnet",
     "title": "Babylon",
