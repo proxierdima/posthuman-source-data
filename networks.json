@@ -332,9 +332,9 @@
     "explorer": "https://explorer.posthuman.digital/zetachain",
     "chain_id": "zetachain_7000-1",
     "endpoints": {
-      "rpc": "https://rpc.zeta.posthuman.digital",
-      "rest": "https://rest.zeta.posthuman.digital",
-      "grpc": "https://grpc.zeta.posthuman.digital",
+      "rpc": "https://rpc.zetachain.posthuman.digital",
+      "rest": "https://rest.zetachain.posthuman.digital",
+      "grpc": "https://grpc.zetachain.posthuman.digital",
       "peer": "adcc85296ada06f1b8de81e7b26e063ff1474760@157.180.4.156"
     },
     "generatedServices": ["installation-guide", "state-sync", "snapshots"],
