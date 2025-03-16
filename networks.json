@@ -323,19 +323,19 @@
   {
     "name": "zetachain",
     "type": "mainnet",
-    "title": "Zetachain(under maintenance)",
+    "title": "Zetachain",
     "website": "https://www.zetachain.com/",
     "twitter": "https://x.com/zetablockchain",
     "discord": "https://discord.gg/zetachain",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/refs/heads/master/zetachain/images/zetachain.svg",
-    "stake": "https://explorer.posthuman.digital/zetachain/staking/",
+    "stake": "https://explorer.posthuman.digital/zetachain/staking/zetavaloper1mj5uvv4703fwvna0t622yj9386cfwavr2hl6q4",
     "explorer": "https://explorer.posthuman.digital/zetachain",
     "chain_id": "zetachain_7000-1",
     "endpoints": {
       "rpc": "https://rpc.zeta.posthuman.digital",
       "rest": "https://rest.zeta.posthuman.digital",
       "grpc": "https://grpc.zeta.posthuman.digital",
-      "peer": ""
+      "peer": "adcc85296ada06f1b8de81e7b26e063ff1474760@157.180.4.156"
     },
     "generatedServices": ["installation-guide", "state-sync", "snapshots"],
     "services": []
