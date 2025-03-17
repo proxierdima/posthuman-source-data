@@ -317,8 +317,8 @@
       "grpc": "https://grpc.kyve.posthuman.digital",
       "peer": "cdac5f97b512287daf89f928a89da9cf3344830b@8.52.247.252:35656"
     },
-    "generatedServices": ["installation-guide", "state-sync", "snapshots"],
-    "services": []
+    "generatedServices": ["installation-guide", "state-sync"],
+    "services": ["snapshots"]
   },
   {
     "name": "zetachain",
