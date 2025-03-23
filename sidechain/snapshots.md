@@ -1,4 +1,4 @@
-# 🚀 Restore Side Node from [Posthuman](https://snapchots.sidechain.posthuman.digital/) Snapshots
+# 🚀 Restore Sidechain Node from [Posthuman](https://snapchots.sidechain.posthuman.digital/) Snapshots
 
 This guide explains how to restore your Side node using a snapshot from **Posthuman**.
 
