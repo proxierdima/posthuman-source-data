@@ -339,7 +339,27 @@
     },
     "generatedServices": ["installation-guide", "state-sync"],
     "services": ["snapshots"]
- },
+  },
+  {
+    "name": "oraichain",
+    "type": "mainnet",
+    "title": "Oraichain",
+    "website": "https://orai.io/",
+    "twitter": "https://x.com/oraichain",
+    "discord": "https://discord.com/invite/oraichain",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai.svg",
+    "stake": "https://explorer.posthuman.digital/oraichain/staking/oraivaloper1gvk3caqtdnwhff60ndm29tp0m7p8e57zgx588h",
+    "explorer": "https://explorer.posthuman.digital/oraichain",
+    "chain_id": "Oraichain",
+    "endpoints": {
+      "rpc": "https://rpc.oraichain.posthuman.digital",
+      "rest": "https://rest.oraichain.posthuman.digital",
+      "grpc": "https://grpc.oraichain.posthuman.digital",
+	  "peer": "ff5733d3f73a9e861f811212d7a0fc4f56426368@8.52.247.236:36657"
+    },
+    "generatedServices": ["installation-guide", "state-sync"],
+    "services": ["snapshots"]
+  },
   {
     "name": "zetachain",
     "type": "mainnet",
