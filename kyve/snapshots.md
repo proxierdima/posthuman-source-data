@@ -1,4 +1,4 @@
-# 🚀 Restore Kyve Node from [Posthuman](https://snapchots.kyve.posthuman.digital/) Snapshots
+# 🚀 Restore Kyve Node from [Posthuman](https://snapshots.kyve.posthuman.digital/) Snapshots
 
 This guide explains how to restore your Kyve node using a snapshot from **Posthuman**.
 
