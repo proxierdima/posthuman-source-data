@@ -1,14 +1,14 @@
-# 🚀 Restore Kyve Node from [Posthuman](https://snapshots.kyve.posthuman.digital/) Snapshots
+# 🚀 Restore Nillion Node from [Posthuman](https://snapshots.nillion.posthuman.digital/) Snapshots
 
-This guide explains how to restore your Kyve node using a snapshot from **Posthuman**.
+This guide explains how to restore your Nillion node using a snapshot from **Posthuman**.
 
 ---
 
-## **🛑 Step 1: Stop Kyve Node**
-Before restoring, stop the Kyve process to prevent database corruption:
+## **🛑 Step 1: Stop Nillion Node**
+Before restoring, stop the Nillion process to prevent database corruption:
 
 ```bash
-sudo systemctl stop kyved
+sudo systemctl stop nillion
 ```
 
 ---
@@ -17,7 +17,7 @@ sudo systemctl stop kyved
 To avoid double signing issues, **backup your validator state file**:
 
 ```bash
-cp $HOME/.kyve/data/priv_validator_state.json $HOME/.kyve/priv_validator_state.json.backup
+cp $HOME/.nillionapp/data/priv_validator_state.json $HOME/.nillionapp/priv_validator_state.json.backup
 ```
 
 ---
@@ -26,7 +26,7 @@ cp $HOME/.kyve/data/priv_validator_state.json $HOME/.kyve/priv_validator_state.j
 Delete the old data to **free space** and **prevent conflicts**:
 
 ```bash
-rm -rf $HOME/.kyve/data
+rm -rf $HOME/.nillionapp/data
 ```
 
 ---
@@ -35,7 +35,7 @@ rm -rf $HOME/.kyve/data
 > **Note:** Since Posthuman updates snapshots **every 24 hours**, use the latest one:
 
 ```bash
-curl -L https://snapshots.kyve.posthuman.digital/data_latest.lz4 | lz4 -dc - | tar -xf - -C $HOME/.kyve
+curl -L https://snapshots.nillion.posthuman.digital/data_latest.lz4 | lz4 -dc - | tar -xf - -C $HOME/.nillionapp
 ```
 
 
@@ -46,17 +46,17 @@ curl -L https://snapshots.kyve.posthuman.digital/data_latest.lz4 | lz4 -dc - | t
 Move back the **backup validator state file**:
 
 ```bash
-mv $HOME/.kyve/priv_validator_state.json.backup $HOME/.kyve/data/priv_validator_state.json
+mv $HOME/.nillionapp/priv_validator_state.json.backup $HOME/.nillionapp/data/priv_validator_state.json
 ```
 
 ---
 
-## **▶️ Step 6: Restart Kyve Node & Monitor Logs**
+## **▶️ Step 6: Restart Nillion Node & Monitor Logs**
 Now, restart the service and monitor its logs:
 
 ```bash
-sudo systemctl restart kyved
-sudo journalctl -u kyved -fo cat
+sudo systemctl restart nillion
+sudo journalctl -u nillion -fo cat
 ```
 
 ---
