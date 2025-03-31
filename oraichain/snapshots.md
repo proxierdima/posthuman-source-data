@@ -1,4 +1,4 @@
-# 🚀 Restore Oraichain Node from [Posthuman](https://snapchots.oraichain.posthuman.digital/) Snapshots
+# 🚀 Restore Oraichain Node from [Posthuman](https://snapshots.oraichain.posthuman.digital/) Snapshots
 
 This guide explains how to restore your Oraichain node using a snapshot from **Posthuman**.
 
