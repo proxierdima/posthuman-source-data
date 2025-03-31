@@ -384,6 +384,26 @@
     "services": ["snapshots"]
   },
   {
+    "name": "nillion",
+    "type": "mainnet",
+    "title": "nillion",
+    "website": "https://nillion.com/",
+    "twitter": "https://x.com/nillionnetwork",
+    "discord": "https://discord.gg/nillionnetwork",
+    "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nillion/images/nil.svg",
+    "stake": "https://explorer.posthuman.digital/nillion",
+    "explorer": "https://explorer.posthuman.digital/nillion",
+    "chain_id": "nillion-1",
+    "endpoints": {
+      "rpc": "https://rpc.nillion.posthuman.digital",
+      "rest": "https://rest.nillion.posthuman.digital",
+      "grpc": "https://grpc.nillion.posthuman.digital",
+	  "peer": "dd46a0e919753c2bc199a3c99cb463a55dc01290@157.180.4.156:56657"
+     },
+    "generatedServices": ["installation-guide", "state-sync"],
+    "services": ["snapshots"]
+  },
+  {
     "name": "babylon-testnet",
     "type": "testnet",
     "title": "Babylon",
