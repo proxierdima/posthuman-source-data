@@ -355,7 +355,7 @@
       "rpc": "https://rpc.oraichain.posthuman.digital",
       "rest": "https://rest.oraichain.posthuman.digital",
       "grpc": "https://grpc.oraichain.posthuman.digital",
-	  "peer": "ff5733d3f73a9e861f811212d7a0fc4f56426368@8.52.247.236:36657"
+	  "peer": "07dde93a5ea10fc4623ef421d0de0e2b5b556e80@157.180.4.156:36657"
     },
     "generatedServices": ["installation-guide", "state-sync"],
     "services": ["snapshots"]
