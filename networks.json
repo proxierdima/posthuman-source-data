@@ -404,6 +404,26 @@
     "services": ["snapshots"]
   },
   {
+    "name": "pell",
+    "type": "testnet",
+    "title": "Pell",
+    "website": "https://pell.network/",
+    "twitter": "https://x.com/Pell_Network",
+    "discord": "https://discord.com/invite/pell-network",
+    "icon": "https://avatars.githubusercontent.com/u/167960015?s=200&v=4",
+    "stake": "https://explorer.posthuman.digital/pell-testnet/staking/pellvaloper1mcstdyw9hwvwwgtxcmpmke6hf8ufes0xkh3wm2",
+    "explorer": "https://explorer.posthuman.digital/pell-testnet",
+    "chain_id": "ignite_186-1",
+    "endpoints": {
+      "rpc": "https://rpc.pell-testnet.posthuman.digital",
+      "rest": "https://rest.pell-testnet.posthuman.digital",
+      "grpc": "https://grpc.pell-testnet.posthuman.digital",
+      "peer": "eb520fcedddaa6236e9ef886c1f475b1c49849cd@8.52.247.252:29057"
+    },
+    "generatedServices": ["installation-guide", "state-sync"],
+    "services": ["snapshots"]
+  },
+  {
     "name": "babylon-testnet",
     "type": "testnet",
     "title": "Babylon",
