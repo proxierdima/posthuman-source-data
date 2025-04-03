@@ -404,7 +404,7 @@
     "services": ["snapshots"]
   },
   {
-    "name": "pell",
+    "name": "pell-testnet",
     "type": "testnet",
     "title": "Pell",
     "website": "https://pell.network/",
