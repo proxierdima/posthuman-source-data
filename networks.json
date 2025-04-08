@@ -410,7 +410,7 @@
     "website": "https://pell.network/",
     "twitter": "https://x.com/Pell_Network",
     "discord": "https://discord.com/invite/pell-network",
-    "icon": "https://avatars.githubusercontent.com/u/167960015?s=200&v=4",
+    "icon": "https://raw.githubusercontent.com/Validator-POSTHUMAN/posthuman-source-data/0d8bbb9be1e8d178832b30ec51c3a981f3d39617/pell-testnet/pell.svg",
     "stake": "https://explorer.posthuman.digital/pell-testnet/staking/pellvaloper1mcstdyw9hwvwwgtxcmpmke6hf8ufes0xkh3wm2",
     "explorer": "https://explorer.posthuman.digital/pell-testnet",
     "chain_id": "ignite_186-1",
