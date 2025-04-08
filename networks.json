@@ -298,7 +298,7 @@
       "peer": "4ba715e890aeceb9fef100c7c404004d1d711f37@46.4.52.158:656"
     },
     "generatedServices": ["installation-guide", "state-sync"],
-    "services": ["oracle-slinky-setup-guide"]
+    "services": ["oracle-slinky-setup-guide", "snapshots"]
   },
   {
     "name": "kyve",
