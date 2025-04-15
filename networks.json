@@ -424,7 +424,7 @@
     "services": ["snapshots"]
   },
   {
-    "name": "elys",
+    "name": "elys-testnet",
     "type": "testnet",
     "title": "Elys",
     "website": "https://elys.network/",
