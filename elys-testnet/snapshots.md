@@ -1,4 +1,4 @@
-# 🚀 Restore Elys Node from [Posthuman](https://snapshots.kyve.posthuman.digital/) Snapshots
+# 🚀 Restore Elys Node from [Posthuman](https://snapshots.elys-testnet.posthuman.digital/) Snapshots
 
 This guide explains how to restore your Kyve node using a snapshot from **Posthuman**.
 
